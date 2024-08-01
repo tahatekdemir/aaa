@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="90507"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 09:12:42 &#214;S"/>
+        <attribute name="created" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wMTswOTowNzo0NSDDllM7MjMyNg=="/>
+        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wMTswOToxMjo0MiDDllM7MTsyNDI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fiyat, kdv, toplam" type="Real" array="False" size=""/>
+            <output expression="&quot;fiyat giriniz&quot;" newline="True"/>
+            <input variable="fiyat"/>
+            <assign variable="kdv" expression="fiyat*0.2"/>
+            <assign variable="toplam" expression="fiyat+kdv"/>
+            <output expression="&quot;girilen urunun kdv'si&quot;&amp;kdv" newline="True"/>
+            <output expression="&quot;toplam tutar&quot;&amp;toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

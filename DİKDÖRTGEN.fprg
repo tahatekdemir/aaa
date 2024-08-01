@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="90507"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 09:24:07 &#214;S"/>
+        <attribute name="created" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wMTswOToxNDoyMyDDllM7MjMyMA=="/>
+        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wMTswOToyNDowNyDDllM7MTsyNDMx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="K&#305;saKenar, UzunKenar, Alan, Cevre" type="Real" array="False" size=""/>
+            <output expression="&quot;K&#305;sa Kenar&#305; giriniz:&quot;" newline="True"/>
+            <input variable="K&#305;saKenar"/>
+            <output expression="&quot;Uzun Kenar&#305; giriniz:&quot;" newline="True"/>
+            <input variable="UzunKenar"/>
+            <assign variable="Cevre" expression="(K&#305;saKenar+UzunKenar)*2"/>
+            <assign variable="Alan" expression="K&#305;saKenar*UzunKenar"/>
+            <output expression="&quot;Dikd&#246;rtgenin alan&#305;:&quot;&amp;Alan" newline="True"/>
+            <output expression="&quot;Dikd&#246;rtgenin &#199;evresi:&quot;&amp;Cevre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
