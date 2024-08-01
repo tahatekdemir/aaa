@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="90507"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 09:57:12 &#214;S"/>
+        <attribute name="created" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wMTswOTozOTozMCDDllM7MjMyNQ=="/>
+        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wMTswOTo1NzoxMiDDllM7MTsyNDMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="DikKenar1, DikKenar2, Hipoten&#252;s" type="Real" array="False" size=""/>
+            <output expression="&quot;Dik kenar1:&quot;" newline="True"/>
+            <input variable="DikKenar1"/>
+            <output expression="&quot;Dik Kenar2:&quot;" newline="True"/>
+            <input variable="DikKenar2"/>
+            <assign variable="Hipoten&#252;s" expression="sqrt(DikKenar1^2+DikKenar2^2)"/>
+            <output expression="&quot;Hipoten&#252;s Uzunlu&#287;u:&quot;&amp;Hipoten&#252;s" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
