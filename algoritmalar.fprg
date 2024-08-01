@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="90507"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-01 09:05:54 &#214;S"/>
+        <attribute name="created" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wMTswODoyODoxOCDDllM7MjMyOA=="/>
+        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wMTswOTowNTo1NCDDllM7MjsyNDMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;" type="Integer" array="False" size=""/>
+            <output expression="&quot;Karesi al&#305;nacak say&#305;y&#305; giriniz:&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <output expression="&quot;girilen say&#305;n&#305;n karesi:&quot;&amp;(say&#305;*say&#305;)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
