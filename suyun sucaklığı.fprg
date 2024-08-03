@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="90507"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-03 09:45:00 &#214;&#214;"/>
+        <attribute name="created" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wMzswOTozNjo1NSDDlsOWOzI0NjI="/>
+        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wMzswOTo0NTowMCDDlsOWOzE7MjU2MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s&#305;cakl&#305;k" type="Integer" array="False" size=""/>
+            <output expression="&quot;suyun s&#305;cakl&#305;&#287;&#305;n&#305; giriniz&quot;" newline="True"/>
+            <input variable="s&#305;cakl&#305;k"/>
+            <if expression="s&#305;cakl&#305;k&gt;100">
+                <then>
+                    <output expression="&quot;gaz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="s&#305;cakl&#305;k&gt;0">
+                        <then>
+                            <output expression="&quot;s&#305;v&#305;&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;kat&#305;&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
