@@ -4,19 +4,21 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="90507"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-08-03 09:53:11 &#214;&#214;"/>
+        <attribute name="saved" value="2024-08-03 10:03:07 &#214;&#214;"/>
         <attribute name="created" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wMzswOTo0NjowNSDDlsOWOzI0NTg="/>
-        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wMzswOTo1MzoxMSDDlsOWOzE7MjU2MQ=="/>
+        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wMzsxMDowMzowNyDDlsOWOzI7MjU1NA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="Vize, Final" type="Integer" array="False" size=""/>
-            <output expression="&quot;vize notunuzu giriniz&quot;" newline="True"/>
-            <input variable="vize"/>
+            <declare name="Vize1, Vize2, Final" type="Integer" array="False" size=""/>
+            <output expression="&quot;Vize1 notunuzu giriniz&quot;" newline="True"/>
+            <input variable="Vize1"/>
+            <output expression="&quot;Vize2 notunuzu giriniz&quot;" newline="True"/>
+            <input variable="Vize2"/>
             <output expression="&quot;Final notunuzu giriniz.&quot;" newline="True"/>
             <input variable="final"/>
-            <if expression="vize*0.3+final*0.7&gt;50">
+            <if expression="(Vize1+Vize2)*0.3+final*0.7&gt;50">
                 <then>
                     <output expression="&quot;ge&#231;tiniz&quot;" newline="True"/>
                 </then>
