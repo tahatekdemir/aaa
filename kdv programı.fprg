@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="90507"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-08-04 10:04:26 &#214;&#214;"/>
+        <attribute name="saved" value="2024-08-04 10:08:32 &#214;&#214;"/>
         <attribute name="created" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wNDswOTowODoxNiDDlsOWOzI0NTk="/>
-        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wNDsxMDowNDoyNiDDlsOWOzE7MjU1Ng=="/>
+        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wNDsxMDowODozMiDDlsOWOzI7MjU1OA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -19,7 +19,7 @@
                 <input variable="urunAdet"/>
                 <output expression="&quot;fiyat&#305; giriniz:&quot;" newline="True"/>
                 <input variable="girilenFiyat"/>
-                <assign variable="toplamTutar" expression="toplamTutar+urunAdet*girilenFiyat"/>
+                <assign variable="toplamTutar" expression="toplamTutar+urunAdet*girilenFiyat*(1.2)"/>
                 <assign variable="toplamKdv" expression="toplamKdv+(urunAdet*girilenFiyat*(0.2))"/>
             </do>
             <output expression="&quot;Toplam Tutar:&quot;&amp;toplamTutar" newline="True"/>

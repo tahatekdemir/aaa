@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="90507"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-04 12:09:12 &#214;S"/>
+        <attribute name="created" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wNDsxMTo1Njo0MSDDlsOWOzI0NTM="/>
+        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wNDsxMjowOToxMiDDllM7MTsyNDI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;1, say&#305;2, sayac" type="Integer" array="False" size=""/>
+            <output expression="&quot;L&#252;tfen say&#305;1 giriniz:&quot;" newline="True"/>
+            <input variable="say&#305;1"/>
+            <output expression="&quot;L&#252;tfen say&#305;2 giriniz:&quot;" newline="True"/>
+            <input variable="say&#305;2"/>
+            <if expression="say&#305;1=say&#305;2">
+                <then>
+                    <output expression="&quot;Arada herhangi bir say&#305; yoktur.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="say&#305;1&lt;say&#305;2">
+                        <then>
+                            <for variable="sayac" start="say&#305;1" end="say&#305;2" direction="inc" step="1">
+                                <output expression="&quot;Say&#305;:&quot;&amp;sayac" newline="True"/>
+                            </for>
+                        </then>
+                        <else>
+                            <for variable="sayac" start="say&#305;2" end="say&#305;1" direction="inc" step="1">
+                                <output expression="&quot;Say&#305;:&quot;&amp;sayac" newline="True"/>
+                            </for>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
