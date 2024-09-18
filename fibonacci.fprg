@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="90507"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 08:17:26 &#214;S"/>
+        <attribute name="created" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wNjswNjo1OTo1NyDDllM7MjMzOA=="/>
+        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wNjswODoxNzoyNiDDllM7MTsyNDM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="oncekiDeger, sonrajiDeger, elemansayisi, bulundu&#287;uDeger" type="Integer" array="False" size=""/>
+            <assign variable="elemanSay&#305;s&#305;" expression="20"/>
+            <assign variable="oncekiDeger" expression="1"/>
+            <assign variable="bulundu&#287;uDeger" expression="1"/>
+            <assign variable="sonrakiDeger" expression="bulunduguDeger+oncekiDeger"/>
+            <output expression="&quot;Fibonaci1&quot;&amp;oncekiDeger" newline="True"/>
+            <output expression="&quot;Fibonacci2&quot;&amp;sonrakiDeger" newline="True"/>
+            <for variable="sayac" start="3" end="20" direction="inc" step="1">
+                <output expression="&quot;Fibonacci&quot;&amp;bulunduguDeger" newline="True"/>
+                <assign variable="oncekiDeger" expression="bulundu&#287;uDeger"/>
+                <assign variable="bulunduguDeger" expression="sayac+bulundu&#287;uDeger"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

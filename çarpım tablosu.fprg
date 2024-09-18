@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="90507"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-06 08:30:03 &#214;S"/>
+        <attribute name="created" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wNjswODoxNzozNCDDllM7MjMyOQ=="/>
+        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wNjswODozMDowMyDDllM7MTsyNDI4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, j" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="9" direction="inc" step="1">
+                <for variable="j" start="1" end="9" direction="inc" step="1">
+                    <output expression="&quot; &quot;&amp;i&amp;&quot;x&quot;&amp;j&amp;&quot;=&quot;&amp;(i*j)" newline="True"/>
+                </for>
+                <output expression="&quot;****************************&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

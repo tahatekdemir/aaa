@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="90507"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-18 04:07:50 &#214;S"/>
+        <attribute name="created" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOS0xODswMjozMjowNCDDllM7MjMyMQ=="/>
+        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOS0xODswNDowNzo1MCDDllM7MjsyNDM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;" type="Integer" array="False" size=""/>
+            <declare name="kare" type="Integer" array="False" size=""/>
+            <output expression="&quot;L&#252;fen bir say&#305; giriniz:&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <assign variable="Kare" expression="say&#305;*say&#305;"/>
+            <output expression="&quot;say&#305;hn&#305;n karesi:&quot;&amp;kare" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

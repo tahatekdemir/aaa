@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="90507"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-18 04:35:21 &#214;S"/>
+        <attribute name="created" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOS0xODswNDoxNDo0MSDDllM7MjMyNA=="/>
+        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOS0xODswNDozNToyMSDDllM7MzsyNDM1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kenar1, kenar2, &#231;evre" type="Real" array="False" size=""/>
+            <output expression="&quot;L&#220;TFEN 1. KENAR UZUNLU&#286;UNU G&#304;R&#304;N&#304;Z:&quot;" newline="True"/>
+            <input variable="kenar1"/>
+            <output expression="&quot;L&#220;TFEN 2. KENAR UZUNLU&#286;UNU G&#304;R&#304;N&#304;Z:&quot;" newline="True"/>
+            <input variable="kenar2"/>
+            <assign variable="&#231;evre" expression="(kenar1+kenar2)*2"/>
+            <output expression="&quot;&#231;evre:&quot;&amp;&#231;evre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

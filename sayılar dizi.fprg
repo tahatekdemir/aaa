@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="90507"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-04 01:24:19 &#214;S"/>
+        <attribute name="created" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wNDsxMjo1NjozOSDDllM7MjMzMA=="/>
+        <attribute name="edited" value="OTA1MDc7TkVYQVJZVVM7MjAyNC0wOC0wNDswMToyNDoxOSDDllM7MjsyNDMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="elemanSay&#305;s&#305;, sayac, toplam, ao" type="Integer" array="False" size=""/>
+            <output expression="&quot;Dizinin eleman Say&#305;s&#305;n&#305; Giriniz.&quot;" newline="True"/>
+            <input variable="elemanSay&#305;s&#305;"/>
+            <declare name="say&#305;lar" type="Integer" array="True" size="elemanSay&#305;s&#305;"/>
+            <assign variable="toplam" expression="0"/>
+            <for variable="sayac" start="0" end="elemanSay&#305;s&#305;-1" direction="inc" step="1">
+                <assign variable="say&#305;lar[sayac]" expression="Random(100)+1"/>
+            </for>
+            <for variable="sayac" start="0" end="elemanSay&#305;s&#305;-1" direction="inc" step="1">
+                <assign variable="toplam" expression="say&#305;lar[sayac]+toplam"/>
+            </for>
+            <output expression="toplam/elemanSay&#305;s&#305;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
